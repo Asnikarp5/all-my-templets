@@ -1,0 +1,42 @@
+body{
+    font-family:'arial nova',Tahoma,san-serif;
+    background-color:#b0ca70
+}
+p{
+      color: navy;
+}
+
+/*This background color extends across the page,so,we have commented it out for now */
+figcaption {
+    color: navy;
+    font-weight: bold;
+   /* background-color: aqua;*/
+   display:inline;
+   font-style:italic;
+
+.sale {
+    font-weight: bold;
+    background-color: aqua;
+    font-style: italic;
+}
+#sidenote {
+    background-color: #ff0000;
+    display: inline;
+    font-weight: bold;
+    float: right;
+    width: 200px;
+    height: 200px;
+    /* border-color:aqua;
+    border-style: dashed;
+    border-width:0px;
+    boder-left-width:2px;
+    border-right-width:2px;*/
+    border: 2px solid navy;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}

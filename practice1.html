@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lag="eng">
+<head>
+<meta charset="utf-8"/>
+<tittle>HTML5</tittle>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <a href="#sale">This month's sale</a>
+    <p style="font-size:30px;">
+        &amp iexcel;
+        <br />
+        <a href="HTMLpage1.html">HTMLpage1.html</a>
+        <form action="HTMLPage1.html" method="post"
+              oninput="fn.value=firstname.value+''+lastname.value">
+            <fieldset>
+                <legend>Personal</legend>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" accesskey="f" tabindex="1" /> <br />
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" accesskey="l" tabindex="2" /><br />
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" accesskey="e" tabindex="3" /><br />
+
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+    </p>
+    <p>How did you here about us </p>
+    <select name="found" id="found">
+        <optgroup label="media">
+            <option value="tv">Tv</option>
+            <option value="Radio">Radio</option>
+            <option value="other">Other</option>
+        </optgroup>
+        <optgroup label="web>"
+        <option value="Google">Google</option>
+        <option value="Bing">Bing</option>
+        </optgroup>
+    </select>
+    <p>what instrument are you most inetrested in learning?</p>
+    <input list="instruments" name="instruments" />
+    <datalist id="instruments">
+        <option value="giutar"></option>
+        <option value="piaon"></option>
+        <option value="drum"></option>
+        <option value="bass"></option>
+    </datalist>
+    </fieldset>
+    <p>Add comment below </p>
+    <textarea rows="6" cols="50" maxlength="255"></textarea>
+    <button name="showimage" onclick=""> Show images</button>
+    <<input type="submit" name="submitform" value="send it" />
+    <output name="fn"></output>
+    </ form>
+    <p><span class="sale">Special sale! </span> Now through the end of the month</p>
+</body>
+</html>
